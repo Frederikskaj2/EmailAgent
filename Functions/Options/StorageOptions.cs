@@ -3,6 +3,6 @@
     public class StorageOptions
     {
         public string ConnectionString { get; set; } = string.Empty;
-        public string ContainerName { get; set; } = "mail-agent";
+        public string ContainerName { get; set; } = "email-agent";
     }
 }
