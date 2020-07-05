@@ -1,0 +1,27 @@
+{
+  "@type": "MessageCard",
+  "@context": "https://schema.org/extensions",
+  "title": "{TITLE}",
+  "summary": "{SUMMARY-START}: {SUBJECT}",
+  "sections": [
+    {
+      "title": "{SUBJECT}",
+      "activityTitle": "{FROM}",
+      "activitySubtitle": "{EMAIL}",
+      "activityImage": "https://mmbemailagent.blob.core.windows.net/public/mail.png",
+      "text": "{TEXT}"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "OpenUri",
+      "name": "Find i Gmail",
+      "targets": [
+        {
+          "os": "default",
+          "uri": "https://mail.google.com/mail/u/ejerforeningenfrederikskaj2@gmail.com/#search/%22{SEARCH}%22"
+        }
+      ]
+    }
+  ]
+}
