@@ -19,7 +19,7 @@
       "targets": [
         {
           "os": "default",
-          "uri": "https://mail.google.com/mail/u/ejerforeningenfrederikskaj2@gmail.com/#search/%22{SEARCH}%22"
+          "uri": "https://mail.google.com/mail/u/ejerforeningenfrederikskaj2@gmail.com/#search/%27{SEARCH}%27"
         }
       ]
     }
